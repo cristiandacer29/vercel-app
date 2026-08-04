@@ -21,7 +21,7 @@ if (!isset($_COOKIE['visitor_name987654321'])) {
         <header>
             <div class="header-flex">
                 <div>
-                    <a href="index.html" class="logo">
+                    <a href="index.php" class="logo">
                         <img src="img/logo.ico" alt="logo">
                     </a>
                 </div>
