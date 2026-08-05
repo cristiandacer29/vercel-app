@@ -54,7 +54,7 @@ setcookie('visitor_name987654321', $cleanName, [
 //----------------------------------------------------
 
 //save name in json file
-$jsonFile = 'counter-record.json';
+$jsonFile = '/tmp/counter-record.json';
 
 // Read existing data
 if (file_exists($jsonFile)) {
