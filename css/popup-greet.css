@@ -73,7 +73,7 @@ button{
     background-color: rgb(235, 235, 235);
     color: rgb(0, 105, 197);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     h1{
         font-size: larger;
     }
