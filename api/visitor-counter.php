@@ -18,7 +18,7 @@ $name_pattern = "/^[a-zA-Z\s\-\'\p{L}]+$/u";
 
 //for single submission verification
 if (!isset($_POST['submit_token']) || !isset($_SESSION['submit_token'])) {
-    die("Error: Form has already been submitted or session expired.");
+    die("Error: Form has already been submitted or session expired. {$_POST['submit_token']} {$_SESSION['submit_token']}");
 }
 
 if (!hash_equals($_SESSION['submit_token'], $_POST['submit_token'])) {
