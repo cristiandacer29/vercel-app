@@ -10,11 +10,11 @@ if (!isset($_COOKIE['visitor_name987654321'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="Title">Cristian M. Dacer</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="icon" type="image/x-icon" href="img/logo.ico">
-    <script type="module" src="js/htmlCommonParts/headerFooter.js"></script>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.ico">
+    <script type="module" src="../js/htmlCommonParts/headerFooter.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -22,18 +22,18 @@ if (!isset($_COOKIE['visitor_name987654321'])) {
             <div class="header-flex">
                 <div>
                     <a href="index.php" class="logo">
-                        <img src="img/logo.ico" alt="logo">
+                        <img src="../img/logo.ico" alt="logo">
                     </a>
                 </div>
                 <ul><a href="index.php" class="active">HOME</a></ul>
-                <ul><a href="portfolio.html">PORTFOLIO</a></ul>
-                <ul><a href="contact.html">CONTACT</a></ul>
+                <ul><a href="../portfolio.html">PORTFOLIO</a></ul>
+                <ul><a href="../contact.html">CONTACT</a></ul>
             </div>
         </header>
         <div class="content to-animate" id="showScreen">
             <div class="img-container left-to-center-animation">
                 <div class="rgb-animation neumorphism-raise">
-                    <img src="img/profile.jpg" alt=" My graduation photo">
+                    <img src="../img/profile.jpg" alt=" My graduation photo">
                 </div>
             </div>
             <div class="context neumorphism box-background right-to-center-animation">
@@ -79,15 +79,15 @@ if (!isset($_COOKIE['visitor_name987654321'])) {
                     </ul>
                     <hr>
                 <h2 class="to-animate">My Hobby</h2>
-                    <div class="my-personal-image to-animate" onclick="window.location.href = 'myImageFullSize.html'">
-                        <img src="img/compressImage/front (2).png" class="neumorphism-raise box-background" alt="">
-                        <img src="img/compressImage/front (1).png" class="neumorphism-raise box-background" alt="">
-                        <img src="img/compressImage/front (3).png" class="neumorphism-raise box-background" alt="">
+                    <div class="my-personal-image to-animate" onclick="window.location.href = '../myImageFullSize.html'">
+                        <img src="../img/compressImage/front (2).png" class="neumorphism-raise box-background" alt="">
+                        <img src="../img/compressImage/front (1).png" class="neumorphism-raise box-background" alt="">
+                        <img src="../img/compressImage/front (3).png" class="neumorphism-raise box-background" alt="">
                     </div>
             </div>
             <custom-footer></custom-footer>
     </div>
 </body>
-<script src="js/onShowAnimation.js"></script>
+<script src="../js/onShowAnimation.js"></script>
 </html>
 

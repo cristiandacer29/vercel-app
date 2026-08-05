@@ -12,7 +12,7 @@ $_SESSION['submit_token'] = bin2hex(random_bytes(32));
     <head>
         <meta charset="utf-8" />
         <title></title>
-        <link rel="stylesheet" href="css/popup-greet.css" />
+        <link rel="stylesheet" href="../css/popup-greet.css" />
     </head>
     <body>
         <div class="padding">
