@@ -5,7 +5,7 @@ if (isset($_COOKIE['visitor_name987654321'])) {
     exit();
 }
 session_start();
-$_SESSION['submit_token'] = bin2hex(random_bytes(32));
+$_SESSION['submit_tokens'] = bin2hex(random_bytes(32));
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,7 +19,7 @@ $_SESSION['submit_token'] = bin2hex(random_bytes(32));
             <h1>Hi! I'm Cristian.</h1>
             <p>Your name is:</p>
             <form action="visitor-counter.php" method="POST" onsubmit="disableButton(this)">
-                <input type="hidden" name="submit_token" value="<?php echo $_SESSION['submit_token']; ?>">
+                <input type="hidden" name="submit_token" value="<?php echo $_SESSION['submit_tokens']; ?>">
                 <input type="text" name="name" id="name" placeholder="Enter your name" autocapitalize="words" required minlength="2" maxlength="30" />
                 <button type="submit">Continue...</button>
             </form>
